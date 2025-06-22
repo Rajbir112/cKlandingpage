@@ -1,0 +1,17 @@
+ .banner-section {
+  text-align: center;
+  transition: padding-top 0.4s ease;
+}
+
+#mainNavbar.shrink ~ .banner-section {
+  padding-top: 200px;
+}
+
+#Welcome {
+  font-size: 40px;
+}
+
+#mainNavbar:not(.shrink) ~ .banner-section {
+  padding-top: 370px;
+  
+}

@@ -1,0 +1,22 @@
+#mainNavbar {
+  transition: all 0.3s ease;
+}
+
+#mainNavbar .navbar-brand {
+  font-size: 14vw;
+  transition: font-size 0.3s ease;
+  font-family: 'Playfair Display', serif; /* Or any stylish font */
+  letter-spacing: 2.8px;
+  color: #000;
+}
+
+#mainNavbar.shrink {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+#mainNavbar.shrink .navbar-brand {
+  font-size: 3.6vw;
+}
+
+
